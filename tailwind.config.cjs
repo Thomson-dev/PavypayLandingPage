@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
         colors:{
-          LightBlue:"#1565D8", 
+          LightBlue:"#1565d8", 
           btnBlue: '#011b33',
           Darkgreen:'#011B33'
             
