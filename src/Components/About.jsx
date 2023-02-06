@@ -8,7 +8,7 @@ const About = () => {
           Pay safely from anywhere, anytime.
         </h1>
       </div>
-      <p className="text-center mt-5  trusted mx-auto max-w-lg">
+      <p className="text-center mt-5 p-5 trusted mx-auto max-w-lg">
         We help busineses of all types work better, save time and money with a
         simple and secured payment system.
       </p>

@@ -40,7 +40,7 @@ const Navbar = () => {
       <div>
         <a
           href="#"
-          className="inline-block px-6 p-3 font-bold tracking-wider bg-LightBlue border border-white  py-2 text-sm text-white rounded-full "
+          className="inline-block px-8 p-3 font-bold tracking-wider bg-LightBlue border border-white  py-2 text-sm text-white rounded-full "
         >
           Sign In
         </a>

@@ -13,7 +13,7 @@ const Hero = () => {
             Protect your payment with a digital escrow
           </h1>
 
-          <p className="text-white text-xl max-w-sm md:text-left">
+          <p className="text-white trusted  max-w-sm md:text-left">
             Buy and sell anything safely without the risk of chargebacks or
             fraud.
           </p>
@@ -30,7 +30,7 @@ const Hero = () => {
 
               <div className="flex px-2 items-center space-x-2">
                 <AiFillPlayCircle className=" text-xl text-blue-200" />
-                <h4 className="text-white text-sm  md:text-lg">Watch Video</h4>
+                <h4 className="text-white trusted  md:text-lg">Watch Video</h4>
               </div>
             </div>
           </div>
