@@ -21,7 +21,7 @@ const Hero = () => {
           <div>
             <div className="flex items-center space-x-2  ">
               <div className="flex py-2 px-4  rounded-full bg-btnBlue  items-center text-white">
-                <a href="#" className="text-sm md:text-lg">
+                <a href="#" className="text-sm md:text-lg font-bold">
                  
                   Create account
                 </a>
