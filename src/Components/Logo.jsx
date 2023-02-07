@@ -7,7 +7,7 @@ import zenith from "../images/zenith-bank_dsh2qz.avif";
 
 const Logo = () => {
   return (
-    <section className="container mx-auto mt-10 flex items-center  md:space-x-40 flex-col my-1 md:flex-row">
+    <section className="container mx-auto mt-2 flex items-center  md:space-x-40 flex-col my-1 md:flex-row">
       <div>
         <div>
           <h5 className="trusted max-w-sm">Trusted by over 100 business</h5>
