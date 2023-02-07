@@ -22,9 +22,9 @@ const About = () => {
             <img src={feature} alt="" className="w-[20%] h-[50%]" />
             <div className="flex items-center">
               <div className="w-[2px] h-4 bg-blue-700"></div>
-              <h1 className="text-lg px-2 font-bold">Built For Busineses</h1>
+              <h1 className="text-xl px-2 font-bold">Built For Marketplaces</h1>
             </div>
-            <p className="max-w-xs text-textColor">
+            <p className="max-w-xs text-lg text-textColor">
               Scale your business, secure your customers and collect payment
               with Pavypay
             </p>
@@ -40,9 +40,9 @@ const About = () => {
             <img src={feature} alt="" className="w-[20%] h-[50%]" />
             <div className="flex items-center">
               <div className="w-[2px] h-4 bg-blue-700"></div>
-              <h1 className="text-lg px-2 font-bold">Built For Busineses</h1>
+              <h1 className="text-xl px-2 font-bold">Built For Service Providers</h1>
             </div>
-            <p className="max-w-xs text-textColor">
+            <p className="max-w-xs text-lg text-textColor">
               Protect your brand, build brand trust and secure your customer
               with Pavypay
             </p>
@@ -59,9 +59,9 @@ const About = () => {
             <img src={feature} alt="" className="w-[20%] h-[50%]" />
             <div className="flex items-center">
               <div className="w-[2px] h-4 bg-blue-700"></div>
-              <h1 className="text-lg px-2 font-bold">Built For Busineses</h1>
+              <h1 className="text-xl px-2 font-bold">Built For Busineses</h1>
             </div>
-            <p className="max-w-xs text-left text-textColor">
+            <p className="max-w-xs text-lg text-left text-textColor">
               Build client trust and secure your service by collecting payment
               with Pavypay
             </p>
