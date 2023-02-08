@@ -19,7 +19,7 @@ const Services = () => (
           services as a business is fully secured and your orders as a buyer are
           delivered as requested.
         </p>
-        <div className="flex flex-col space-y-7  mt md:space-y-0 md:flex-row items-center ">
+        <div className="flex flex-col space-y-7  mt md:space-y-0 md:flex-row  ">
           {/* Row1*/}
           <div className=" flex flex-col  space-y-5 md:space-y-5 md:w-1/2">
             <div className="items-center flex ">
@@ -54,9 +54,9 @@ const Services = () => (
               <h5 className="px-4 text-lg font-bold">Seller</h5>
             </div>
             <div className="flex items-center">
-              <BsCheckCircleFill className="text-xl text-blue-700" />
+              <BsCheckCircleFill className="text-3xl text-blue-700" />
               <p className="px-3 max-w-xs text-textColor">
-              Increase sales and build customers trust
+              You get 100% money back when not satisfied with your order
               </p>
             </div>
 
