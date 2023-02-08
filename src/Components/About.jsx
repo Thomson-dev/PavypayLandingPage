@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="">
       <div className="container mt-20 flex-col max-w-sm space-y-10 flex  text-center pt-5  justify-center mx-auto">
-        <h1 className="text-4xl font-bold  ">
+        <h1 className="text-3xl font-bold  ">
           Pay safely from anywhere, anytime.
         </h1>
       </div>
@@ -38,7 +38,7 @@ const About = () => {
           {/* card2 */}
           <div className="flex flex-col space-y-3 pb-8">
             <img src={feature} alt="" className="w-[20%] h-[50%]" />
-            <div className="flex items-center">
+            <div className="flex items-center"> 
               <div className="w-[2px] h-4 bg-blue-700"></div>
               <h1 className="text-xl px-2 font-bold">Built For Service Providers</h1>
             </div>

@@ -18,7 +18,8 @@ module.exports = {
           LightBlue:"#1565d8", 
           textColor:'#aab3bc',
           btnBlue: '#011b33',
-          Darkgreen:'#011B33'
+          Darkgreen:'#011B33',
+          DarkBlue: "#f6f9fc"
             
         }
     },
