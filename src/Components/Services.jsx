@@ -63,7 +63,7 @@ const Services = () => (
             <div className="flex items-center">
               <BsCheckCircleFill className="text-3xl text-blue-700" />
               <p className="px-3 max-w-xs text-textColor">
-              Receive payment for goods and services without hassle
+              Build your business reputation receiving payment with Pavypay
               </p>
             </div>
 
@@ -79,7 +79,7 @@ const Services = () => (
 
       {/* Image */}
       <div className=" md:w-1/2 flex md:justify-center pb-5 md:pt-20">
-        <img src={eliminate} alt="" />
+        <img src={eliminate} alt="" className="h-[90%]" />
       </div>
     </div>
   </section>
