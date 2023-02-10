@@ -32,8 +32,8 @@ const Navbar = () => {
       <div>
 
 
-        <ul className={`absolute   w-full p-12 md:p-0 space-y-10 md:space-y-0 
-        bg-LightBlue font-bold  right-0 top-24 md:top-0 
+        <ul className={`absolute  w-full p-12 md:p-0 space-y-10 md:space-y-0 
+        bg-LightBlue font-bold  right-0 top-[85px] md:top-0 
         text-white md:space-x-8 transition-all ease-in  text-bg md:flex  md:static ${open ? 'left-0': 'left-[-100%]'}`}  >
           <li>
             <a href="#">Developers</a>
