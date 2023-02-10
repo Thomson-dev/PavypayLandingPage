@@ -16,7 +16,8 @@ const About = () => {
       </p>
 
       <div className="flex mx-2 md:mx-24 mt-10">
-        <div className="  flex  md:flex-row flex-col space-y-10 items-center  px-15  space-x-0 md:space-x-20  ">
+        <div className="  flex  md:flex-row flex-col 
+        space-y-10 items-center  px-15 mx-4  space-x-0 md:space-x-20  ">
           {/* card1 */}
           <div className="flex flex-col space-y-3 ">
             <img src={feature} alt="" className="w-[20%] h-[50%]" />

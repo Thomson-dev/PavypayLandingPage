@@ -4,7 +4,7 @@ import { BsCheckCircleFill } from "react-icons/bs";
 
 const Services = () => (
   <section className=" mt-24 bg-DarkBlue">
-    <div className="container mx-auto  flex-col flex md:flex-row ">
+    <div className="container  mx-auto  flex-col flex md:flex-row ">
       {/* left */}
       <div className=" md:w-1/2 flex flex-col space-y-8 space-x-0 p-4 md:p-12 justify-center ">
         <h4 className="text-xl text-blue-800 font-bold">SECURED PAYMENT</h4>
