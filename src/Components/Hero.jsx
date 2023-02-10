@@ -5,8 +5,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <section>
-      <div className="container  flex flex-col items-center px-6 mx-auto mt-2 md:flex-row ">
+    <section className="bg-LightBlue">
+      <div className="container   flex flex-col items-center px-6 mx-auto mt-0 md:flex-row ">
         {/*  LEFT ITEMS */}
         <div className="flex  flex-col space-y-8  md:w-1/2">
           <h1 className="text-4xl  text-white max-w-sm font-bold  md:text-left md:text-5xl">

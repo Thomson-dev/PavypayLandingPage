@@ -16,7 +16,7 @@ const Navbar = () => {
   }, []);
 
   return ( 
-    <nav className= {`flex justify-around items-center py-7  bg-LightBlue shadow-md`}>
+    <nav className= {`flex justify-around items-center py-7 sticky top-0  bg-LightBlue shadow-md`}>
       <div>
         <img src={Logo} alt="logo" className="h-17  cursor-pointer" />
       </div>

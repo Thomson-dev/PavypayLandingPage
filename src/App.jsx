@@ -9,13 +9,15 @@ import Services from "./Components/Services";
 const App = () => {
   return (
     <>
-      <div className="bg-LightBlue ">
+      <div className="">
         <Navbar />
         <Hero />
-      </div>
-      <Logo />
+        <Logo />
       <About />
       <Services/>
+
+      </div>
+      
     </>
   );
 };
