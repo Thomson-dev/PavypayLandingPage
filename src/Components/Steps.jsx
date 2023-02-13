@@ -123,7 +123,7 @@ const Steps = () => {
                   <h1 className="text-left text-xl font-bold">
                     Payment Release
                   </h1>
-                  <p className=" pt-3 text-left max-w-md text-lg font-bold">
+                  <p className=" pt-3  text-left max-w-md text-lg font-bold">
                     Payment is released to seller upon buyer’s confirmation
                   </p>
                 </div>
@@ -162,7 +162,7 @@ const Steps = () => {
 
           {/* Mobile */}
 
-          <div className="md:hidden w-full h-full ">
+          <div className="md:hidden w-full h-full mt-10 ">
             <Swiper
               className="w-full "
               modules={[Navigation, Pagination, Scrollbar, A11y]}
