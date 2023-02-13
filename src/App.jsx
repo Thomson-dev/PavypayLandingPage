@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import Logo from "./Components/Logo";
 import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
+import Steps from "./Components/Steps";
 
 const App = () => {
   return (
@@ -13,11 +14,10 @@ const App = () => {
         <Navbar />
         <Hero />
         <Logo />
-      <About />
-      <Services/>
-
+        <About />
+        <Services />
+        <Steps />
       </div>
-      
     </>
   );
 };

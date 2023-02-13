@@ -10,3 +10,23 @@
     font-size: 1.2rem;
 }
 
+.rel{
+    position: relative;
+    overflow-x: hidden !important;
+}
+
+.abs{
+    position: absolute;
+    transition: 1s;
+    /* z-index: ; */
+    /* right: -50rem; */
+    transform: translateX(-100rem);
+}
+
+.fix{
+    /* z-index: ; */
+    position: absolute;
+    transition: 2s;
+    /* right: -50rem; */
+    transform: translateX(-0rem);  
+}

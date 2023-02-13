@@ -3,6 +3,8 @@ import Logo from "../images/logo-white.svg";
 import Logo2 from "../images/logo.svg";
 import { FaAngleDown } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { HiMenuAlt3 } from "react-icons/hi";
+import { HiX } from "react-icons/hi";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex justify-around items-center py-5 sticky top-0
+      className={`flex justify-around items-center py-5 sticky z-10 top-0
        ${ scroll ? "bg-white bg-opacity-90 shadow-md" : "bg-LightBlue"
      }  `}
 
@@ -39,9 +41,9 @@ const Navbar = () => {
         className="text-3xl absolute right-4 top-6 cursor-pointer md:hidden"
       >
         {open ? (
-          <FaTimes className={scroll ? "text-black" : "text-white"} />
+          <HiX className={scroll ? "text-black " : "text-white" } />
         ) : (
-          <FaBars className={scroll ? "text-black" : "text-white"} />
+          <HiMenuAlt3 className={scroll ? "text-black" : "text-white"} />
         )}
       </div>
       <div>
@@ -73,7 +75,7 @@ const Navbar = () => {
         {/* Mobile */}
 
         <ul className=  {`md:hidden absolute top-20 text-xl
-        left-0 mx-5 w-[90%] transition-all ease-in ${scroll ? 'bg-slate-100' : ' bg-slate-100'}  ${open ? 'left-0' : ' left-[-100%]'} space-y-8  bg-white p-12`}  >
+        left-0 mx-5 w-[90%] transition-all ease-in ${scroll ? 'bg-slate-100' : ' bg-slate-100'}  ${open ? 'left-0 duration-300' : ' left-[-100%]'} space-y-8  bg-white rounded-xl p-12`}  >
         <li>
             <a className="" href="#">
               Developers
