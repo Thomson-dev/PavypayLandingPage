@@ -20,7 +20,8 @@ module.exports = {
           btnBlue: '#011b33',
           Darkgreen:'#011B33',
           DarkBlue: "#f6f9fc",
-          Darkbg:'#011b33'
+          Darkbg:'#011b33',
+          LightGray:'#F6F9FC'
             
         }
     },

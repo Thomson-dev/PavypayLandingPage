@@ -30,3 +30,7 @@
     /* right: -50rem; */
     transform: translateX(-0rem);  
 }
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }

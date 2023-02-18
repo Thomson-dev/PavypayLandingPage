@@ -177,7 +177,7 @@ const Steps = () => {
                 <div className="flex flex-col mx-5 text-white ">
                   <img src={img4} alt="" className="w-full" />
                   <h1 className="text-xl text-center">Aggrement on Terms</h1>
-                  <p className=" max-w-sm pt-5 pb-10 mx-auto text-center">
+                  <p className=" max-w-sm pt-5 text-textColor pb-10 mx-auto text-center">
                     Buyer and seller discuss and mutually agree on terms of
                     trade.
                   </p>
@@ -187,7 +187,7 @@ const Steps = () => {
                 <div className="flex flex-col mx-5 text-white ">
                   <img src={img5} alt="" className="w-full" />
                   <h1 className="text-xl text-center">Payment Submission</h1>
-                  <p className=" max-w-sm pt-5 pb-10 mx-auto text-center">
+                  <p className=" max-w-sm pt-5 text-textColor pb-10 mx-auto text-center">
                     Buyer and seller discuss and mutually agree on terms of
                     trade.
                   </p>
@@ -201,7 +201,7 @@ const Steps = () => {
                   <h1 className="text-xl text-center">
                     Goods/Service Delivery
                   </h1>
-                  <p className=" max-w-sm pt-5 pb-10 mx-auto text-center">
+                  <p className=" max-w-sm pt-5 text-textColor pb-10 mx-auto text-center">
                     
                     Seller delivers order and upload proof of delivery upon
                     agreed time frame
