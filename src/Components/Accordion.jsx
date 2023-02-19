@@ -34,7 +34,7 @@ const Accordion = () => {
     <section className="bg-Darkbg">
       <div className=" pt-[10rem] px-5 pb-7 flex flex-col md:flex-row container md:mx-7">
         <div className=" md:w-1/2 flex flex-col  space-y-7">
-          <h1 className="text-white font-bold max-w-lg text-4xl">
+          <h1 className="text-white font-bold max-w-lg text-3xl md:text-4xl">
             Some of the things you may want to know
           </h1>
 
