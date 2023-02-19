@@ -5,10 +5,10 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-LightGray mt-24">
-      <div className=" container p-2 grid gap-x-10  grid-cols-2 gap-y-8 md:mx-auto pt-24 pb-20 text-gray-500 md:flex md:flex-row md:justify-between">
+      <div className=" container px-4 grid gap-x-20  grid-cols-2 gap-y-8 md:mx-auto pt-24 pb-20 text-gray-500 md:flex md:flex-row md:justify-between">
 
         
-        <ul className="text-lg  max-w-1/2 md:max-w-full flex flex-col space-y-5">
+        <ul className="text-lg  max-w-1/2 md:max-w-full flex flex-col  space-y-5">
           <h5 className="font-semibold text-black text-xl">Quick Link</h5>
           <li className="hover:text-slate-900">
             <a href="">About us</a>
