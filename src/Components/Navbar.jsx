@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
       <div>
         <ul
-          className={` hidden   md:p-0 space-y-10 md:space-y-0 
+          className={` hidden   md:py-3 space-y-10 md:space-y-0 
        font-bold  right-0  first-line:top-[85px] md:top-0
        ${scroll ? "text-black" : "text-white"}   md:space-x-8 
           text-bg md:flex  

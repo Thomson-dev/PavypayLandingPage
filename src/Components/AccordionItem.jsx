@@ -8,7 +8,7 @@ import { HiChevronUp } from "react-icons/hi";
 
 const AccordionItem = ({ open, toggle, title, desc }) => {
   return (
-    <div className="flex flex-col space-y-12">
+    <div className="flex flex-col space-y-11">
       <div
         className="flex flex-row justify-between  items-center text-white "
         onClick={toggle}

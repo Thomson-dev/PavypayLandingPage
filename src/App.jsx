@@ -2,6 +2,8 @@
 import React from "react";
 import About from "./Components/About";
 import Accordion from "./Components/Accordion";
+import CTA from "./Components/CTA";
+import Footer from "./Components/Footer";
 
 import Hero from "./Components/Hero";
 import Logo from "./Components/Logo";
@@ -26,6 +28,8 @@ const App = () => {
         <Payments/>
         {/* <Reviews/> */}
         <Accordion/>  
+        <CTA/>
+        <Footer/>
     
       </div>
     </>
