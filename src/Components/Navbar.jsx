@@ -96,7 +96,7 @@ const Navbar = () => {
       <div>
         <a
           href="#"
-          className="inline-block hidden px-8 p-3 font-bold tracking-wider bg-LightBlue border border-white  py-2 text-sm text-white rounded-full md:flex"
+          className= {`relative right-8 px-8 p-3 font-bold tracking-wider ${scroll ?  'bg-LightBlue' : ''} border border-white  py-2 text-sm text-white rounded-full md:flex`} 
         >
           Sign In
         </a>
